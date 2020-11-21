@@ -68,7 +68,7 @@ html{
     color: crimson;
 }
 .navbar.sticky .menu li a:hover{
-    color: crimson;
+    color: #fff;
 }
 .home{
     display: flex;
