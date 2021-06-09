@@ -347,7 +347,7 @@ section{
 }
 
 .skills-content .right .js::before{
-    width: 70%;
+    width: 50%;
 }
 
 .skills-content .right .cpp::before{
