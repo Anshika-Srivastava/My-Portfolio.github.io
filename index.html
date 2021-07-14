@@ -265,20 +265,20 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message Me</div>
-                    <form action="https://mail.google.com/">
+                    <form action="https://formspree.io/f/xayadjqg" method="POST">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" name="fullN" required>
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="Email" required>
+                                <input type="email" placeholder="Email" name="_replyto" required>
                             </div>
                         </div>
                         <div class="field">
-                            <input type="subject" placeholder="Subject" required>
+                            <input type="subject" placeholder="Subject" name="sub" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Describe project..."></textarea>
+                            <textarea cols="30" rows="10" placeholder="Describe project..." name="desc"></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Send Message</button>
